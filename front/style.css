@@ -1,0 +1,95 @@
+
+.wrap {
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    color: #2c3e50;
+}
+
+#request {
+    /* resize: vertical; */
+    min-height: 120px;
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: 1.8px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.3s ease;
+    /* font-family: monospace; */
+    margin-bottom: 15px;
+}
+
+#request:focus {
+    border-color: #4caf50;
+    outline: none;
+}
+
+#button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+    align-self: flex-start;
+}
+
+#buttun:hover {
+    background-color: #43a047;
+}
+
+#sql-response {
+    width: 100%;
+    max-width: 700px;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+#modifiedCount {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #388e3c;
+    margin-bottom: 15px;
+}
+
+table#dataTable {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+}
+
+#dataTable th,
+#dataTable td {
+    border: 1px solid #ddd;
+    padding: 10px 12px;
+    text-align: left;
+}
+
+#dataTable th {
+    background-color: #4caf50;
+    color: white;
+    font-weight: 600;
+}
+
+#dataTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
