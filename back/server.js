@@ -13,7 +13,7 @@ const poolConfig = {
   connectionLimit: 2,
   host: "178.172.195.18",
   user: "root",
-  password: "",
+  password: "1234",
   database: "learning_db",
 };
 
