@@ -11,7 +11,7 @@ webserver.use(bodyParser.json());
 
 const poolConfig = {
   connectionLimit: 2,
-  host: "178.172.195.18",
+  host: "localhost",
   user: "root",
   password: "1234",
   database: "learning_db",
